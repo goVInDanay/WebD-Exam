@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 div, p , span{
+    margin: 0;
+    padding: 0;
     margin-bottom: 0px !important;
 }
 body {
@@ -46,8 +48,13 @@ nav ul li {
     margin: 0 10px;
 }
 .container1{
+    border: black solid 2px;
+    display: flex;
+    height: 90vh;
     position: relative;
     text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_481606-89.jpg");
+    background-size: cover;
 }
 nav ul li a {
     color: #fff;
@@ -62,9 +69,6 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-.main-content {
-    padding: 20px;
-}
 .text-1{
     color: white;
     position: absolute;
@@ -74,10 +78,9 @@ nav ul li a:hover {
     transform: translate(-50%, -50%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.container1 img{
-    height: 350px;
-}
+
 .container2{
+    border: solid black 2px;
     position: relative;
     text-align: left;
     display: flex;
@@ -128,6 +131,7 @@ div, span{
     -ms-transform: translate(-50%, -50%);
 }
 .container4{
+    border: black solid 2px;
     padding: 20px;
     position: relative;
     display: flex;
@@ -159,7 +163,6 @@ div, span{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .card-content .btn{
-    margin-left: 300px;
     background-color: goldenrod;
     border: none;
     padding: 5px;
@@ -196,7 +199,6 @@ footer {
     padding-top: 0;
     background-color: #333;
     color: #fff;
-    margin-top: 20px;
 }
 footer img{
     display: block;
